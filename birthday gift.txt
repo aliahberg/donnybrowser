@@ -1,5 +1,0 @@
-<h2 class="message">PLAY</h2>
-<a id="badge" href="http://www.chromeexperiments.com/experiment/audio-cloud/" target="_blank"><img src="https://lab.ma77os.com/audio-cloud/img/b4.png" alt="See my Experiment on ChromeExperiments.com"></a>
-
-
-<a class="experiment-url" href="https://drive.google.com/file/d/1zcO6FuV7reCSk08uNA7Y4Wc1b81Npi3N/view?usp=sharing" target="_blank">source: lab.ma77os.com/audio-cloud</a>
