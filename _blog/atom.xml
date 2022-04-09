@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Donny Browser Blog</title>
-	<link href="http://aliahberg.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://aliahberg.github.io/blog"/>
+	<link href="http://donnybrowser.com/blog/atom.xml" rel="self"/>
+	<link href="http://donnybrowser.com/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://aliahberg.github.io/blog</id>
+	<id>http://donnybrowser.com/blog</id>
 	<author>
 		<name>Donny Browser</name>
 		<email>donny@donny-b.com</email>
@@ -17,9 +17,9 @@ layout: feed
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="http://aliahberg.github.io{{ post.url }}"/>
+			<link href="http://donnybrowser.com{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://aliahberg.github.io{{ post.id }}</id>
+			<id>http://donnybrowser.com{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
